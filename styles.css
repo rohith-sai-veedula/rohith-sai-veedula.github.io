@@ -1,0 +1,22 @@
+#container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+button {
+  background-color:#48c248;
+  margin-top: 10px;
+  font-size: 50px;
+  border-radius: 12px;
+  border-spacing: 50px;
+  padding: 12px 28px;
+}
+
+body
+{
+background-color: #cde0de;
+}
