@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var btn16 = document.getElementById("btn16");
   var btn20 = document.getElementById("btn20");
   var btn24 = document.getElementById("btn24");
+  var btn1 = document.getElementById("btn1");
 
   var value = 0;
   var history = [];
@@ -50,5 +51,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   btn24.addEventListener("click", function() {
     handleButtonClick(24);
+  });
+
+  btn1.addEventListener("click", function() {
+    handleButtonClick(1);
   });
 });
